@@ -1,23 +1,24 @@
-import React, { Component, useState } from "react";
-import Project from "../Projects";
+import React, { useState } from "react";
+import Projects from "../Projects";
 
-function Portfolio() {
-  const [projects] = useState([
+export default function Portfolio() {
+  const projects = [
+    // const [projects, setProjects] = useState([
     {
-      name: "Project 1",
+      title: "Project 1",
       description: "description",
       img: require(`../../assets/images/FitCommit-Homepage-Screenshot.png`),
       github: "link",
       deployed: "link",
     },
     {
-      name: "Project 2",
+      title: "Project 2",
       description: "description",
       img: require(`../../assets/images/FitCommit-Homepage-Screenshot.png`),
       github: "link",
       deployed: "link",
     },
-  ]);
+  ];
   return (
     <div>
       <div>
@@ -26,11 +27,9 @@ function Portfolio() {
       <div>
         {/* flex here */}
         {projects.map((data, idx) => (
-          <Project data={data} key={idx} />
+          <Projects data={data} key={idx} />
         ))}
       </div>
     </div>
   );
 }
-
-export default Portfolio;

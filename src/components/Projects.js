@@ -1,18 +1,17 @@
 import React from "react";
 
-function Project({ data }) {
-  const { name, description, img, github, deployed } = data;
+export default function Projects({ data }) {
+  const { title, description, img, github, deployed } = data;
   return (
     <div>
-      <h3>{name}</h3>
+      <h3>{title}</h3>
       <p>{description}</p>
-      <img src={img}></img>
+      <img src={img} alt="project image"></img>
       <a>{github}</a>
       <a>{deployed}</a>
     </div>
   );
 }
-export default Project;
 
 // bootstrap 5.0 css to play with
 {
