@@ -4,39 +4,40 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-function Navheader() {
+export default function Navheader({ currentPage, handlePageChange }) {
   return (
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">Jenny Bloemen</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar bg="primary" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-
-      <br />
-      <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link
+              href="#home"
+              onClick={() => handlePageChange("Home")}
+              className={
+                currentPage === "Home" ? "nav-link active" : "nav-link"
+              }
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+              className={
+                currentPage === "Home" ? "nav-link active" : "nav-link"
+              }
+            >
+              Portfolio
+            </Nav.Link>
+            <Nav.Link
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
@@ -51,8 +52,7 @@ function Navheader() {
 //         <a
 //           href="#home"
 //           onClick={() => handlePageChange("Home")}
-//           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-//           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+//
 //           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
 //         >
 //           Jenny Bloemen
@@ -94,5 +94,3 @@ function Navheader() {
 //     </ul>
 //   );
 // }
-
-export default Navheader;
