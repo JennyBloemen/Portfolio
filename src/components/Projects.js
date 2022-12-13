@@ -1,7 +1,5 @@
 import React from "react";
-
 import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
 
 export default function Projects({ data }) {
   const { title, description, img, github, deployed } = data;
