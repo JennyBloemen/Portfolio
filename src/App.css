@@ -8,8 +8,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  contact.container {
+    max-width: 50%;
   }
 }
 
@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+/* .form-group {
+  max-width: 50%;
+} */
+
+.project-container {
+}
+
+.portfolio-header {
+  text-align: center;
+}
+
+.carosel_container {
+  width: 80%;
+  margin: auto;
+}
+
+/* .portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  max-width: 85%;
+  margin: auto;
+} */
