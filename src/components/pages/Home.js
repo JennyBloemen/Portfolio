@@ -1,29 +1,21 @@
 import React from "react";
+import image from "../../assets/images/IMG_4846.png";
 
 export default function Home() {
   return (
     <div>
-      <div>
-        <h1>Home Page</h1>
+      {/* <div>Text</div> */}
+      <div
+        style={{
+          backgroundImage: `url(${image})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          height: "100vh",
+          width: "9vw",
+        }}
+      >
+        Text Goes Here
       </div>
     </div>
   );
 }
-
-// import Carosel from "../Carosel";
-
-// class Home extends Component {
-//   render() {
-//     return <h1>Need to build home page</h1>;
-//   }
-// }
-
-// function Home() {
-//   const [tools] = useState([
-//     {
-//       img: require(`../../assets/images/FitCommit-Homepage-Screenshot.png`),
-//     },
-//     {
-//       img: require(`../../assets/images/FitCommit-Homepage-Screenshot.png`),
-//     },
-//   ]);
