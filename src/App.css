@@ -36,15 +36,10 @@
     transform: rotate(360deg);
   }
 }
-/* .form-group {
-  max-width: 50%;
-} */
-
-.project-container {
-}
 
 .portfolio-header {
   text-align: center;
+  padding: 10px;
 }
 
 .carosel_container {
@@ -52,12 +47,7 @@
   margin: auto;
 }
 
-/* .portfolio-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  max-width: 85%;
-  margin: auto;
+/* #carousel-item {
+  width: 25rem;
+  height: 25rem;
 } */
