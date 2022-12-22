@@ -12,7 +12,6 @@ export default function Navheader({ currentPage, handlePageChange }) {
           <Navbar.Brand href="#home">Jenny Bloemen</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link
-              href="#home"
               onClick={() => handlePageChange("Home")}
               className={
                 currentPage === "Home" ? "nav-link active" : "nav-link"
@@ -21,16 +20,14 @@ export default function Navheader({ currentPage, handlePageChange }) {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={
-                currentPage === "Home" ? "nav-link active" : "nav-link"
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
             >
               Portfolio
             </Nav.Link>
             <Nav.Link
-              href="#contact"
               onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
