@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
 
 class Contact extends Component {
   constructor(props) {
@@ -85,44 +86,68 @@ class Contact extends Component {
               </p>
             )}
           </form>
+          <br></br>
           <div className="contactInfo text-center">
-            <span>Email: </span>
-            <a href="mailto:jennyjbloemen@gmail.com">jennyjbloemen@gmail.com</a>
-            <br />
-            <span>Call Me: </span>
-            <a href="tel:(801)2016307">(801)201-6307</a>
-            <br />
-            <span>Download my resume:</span>
-            {/* <a href={Resume} target='_blank' rel="noopener noreferrer">
-              <button className="btn"
-                id="resumeBtn" type="submit">
-                <i className="fa fa-download resume"></i></button>
-            </a> */}
+            <div>
+              Email:
+              <a href="mailto:jennyjbloemen@gmail.com">
+                jennyjbloemen@gmail.com
+              </a>
+            </div>
+
+            <div>
+              Call Me:
+              <a href="tel:(801)2016307">(801)201-6307</a>
+            </div>
+
             <div className="social-links">
-              <span>
+              <div>
+                GitHub:
                 <a
                   href="https://github.com/jennybloemen"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-github fa-3x"></i>
+                  https://github.com/jennybloemen
                 </a>
-              </span>
-              <span>
+              </div>
+              <div>
+                LinkedIn:
                 <a
                   href="https://www.linkedin.com/in/jenny-bloemen/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-linkedin fa-2x"></i>
+                  https://www.linkedin.com/in/jenny-bloemen/
                 </a>
-              </span>
+              </div>
 
-              {/* <span>Download my resume:</span><a class="resume" href="AlexResume.pdf" target="_blank"><button><i
-                  class="fa fa-download"></i></button></a> */}
+              <div className="d-grid gap-2 justify-content-center d-flex">
+                <a
+                  href="../../assets/images/JennyBloemenRes.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button
+                    className="gh-button"
+                    variant="secondary mt-auto"
+                    size="sm"
+                  >
+                    Download My Resume
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
+        <div
+          style={{
+            backgroundColor: "bg-dark",
+            backgroundSize: "cover",
+            height: "100vh",
+            width: "100vw",
+          }}
+        ></div>
       </div>
     );
   }
