@@ -28,7 +28,7 @@ export default function Portfolio() {
       title: "GoGroom",
       description: "Animal grooming servies schedular built with: MERN stack",
       img: require(`../../assets/images/dog.png`),
-      github: "link",
+      github: "https://github.com/JennyBloemen/GoGroom",
     },
     {
       title: "FitCommit",
@@ -71,7 +71,6 @@ export default function Portfolio() {
     <div>
       <div class="portfolio-header">
         <h3>Coding Projects</h3>
-        <p></p>
       </div>
       <Carousel
         className="carosel_container"
@@ -80,7 +79,8 @@ export default function Portfolio() {
         draggable={false}
         showDots={true}
         responsive={responsive}
-        ssr={true} // means to render carousel on server-side.
+        // means to render carousel on server-side.
+        ssr={true}
         infinite={true}
         autoPlaySpeed={1000}
         keyBoardControl={true}
@@ -88,7 +88,6 @@ export default function Portfolio() {
         transitionDuration={500}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
-        // deviceType={this.props.deviceType}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-20-px"
       >
