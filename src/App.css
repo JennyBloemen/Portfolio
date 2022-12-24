@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 .App {
   text-align: center;
 }
@@ -39,42 +38,53 @@
   }
 }
 
-.portfolio-header {
-  text-align: center;
-  padding: 10px;
-  margin-top: 2%;
-  font-family: "Permanent Marker", cursive;
+.about {
+  max-width: 80%;
+  padding: 1rem;
+  padding-top: 4rem;
 }
 
+.hello {
+  font-family: "Sriracha", cursive;
+  font-size: 40px;
+}
+p {
+  font-size: 26px;
+}
+.skills {
+  font-family: "Sriracha", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+.portfolio-header h3 {
+  text-align: center;
+  padding: 5px;
+  margin-top: 4%;
+  font-size: 48px;
+  font-family: "Sriracha", cursive;
+}
+.card-text {
+  font-size: 16px;
+}
 .carosel_container {
   width: 80%;
   margin: auto;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 .custom-dot-list-style {
   margin: -4px;
 }
-/* #carousel-item {
-  width: 25rem;
-  height: 25rem;
-} */
-
-/* .card-img {
-  width: 5rem;
-  height: 10rem;
-} */
-
-/* .react-multi-carousel-item {
-  width: 100%;
-  height: 20rem;
-} */
 
 a {
   color: white;
 }
 
-/* .gh-button {
-  position: absolute;
-  justify-content: center;
-  margin-top: auto;
-} */
+.links {
+  color: rgb(174, 173, 173);
+}
+
+#contact h3 {
+  font-size: 32px;
+  padding: 30px;
+  font-family: "Sriracha", cursive;
+}
