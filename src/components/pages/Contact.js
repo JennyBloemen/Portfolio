@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Button from "react-bootstrap/Button";
-
+import resume from "../../assets/images/Res.pdf";
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -34,7 +34,7 @@ class Contact extends Component {
     return (
       <div className="bg-dark text-white" id="contactSect">
         <div className="container" id="contact">
-          <h3 className="contact text-center">Please Drop a Message</h3>
+          <h3 className="contact text-center">Please Drop a Message...</h3>
 
           <form
             className="contact-form"
@@ -90,46 +90,50 @@ class Contact extends Component {
           <div className="contactInfo text-center">
             <div>
               Email:
-              <a href="mailto:jennyjbloemen@gmail.com">
+              <a className="links" href="mailto:jennyjbloemen@gmail.com">
+                {" "}
                 jennyjbloemen@gmail.com
               </a>
             </div>
 
             <div>
               Call Me:
-              <a href="tel:(801)2016307">(801)201-6307</a>
+              <a className="links" href="tel:(801)2016307">
+                {" "}
+                (801)201-6307
+              </a>
             </div>
 
             <div className="social-links">
               <div>
                 GitHub:
                 <a
+                  className="links"
                   href="https://github.com/jennybloemen"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  {" "}
                   https://github.com/jennybloemen
                 </a>
               </div>
               <div>
                 LinkedIn:
                 <a
-                  href="https://www.linkedin.com/in/jenny-bloemen/"
+                  className="links"
+                  href="https://www.linkedin.com/in/jennybloemen/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  {" "}
                   https://www.linkedin.com/in/jenny-bloemen/
                 </a>
               </div>
-
+              <br></br>
               <div className="d-grid gap-2 justify-content-center d-flex">
-                <a
-                  href="../../assets/images/JennyBloemenRes.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={resume} target="_blank" rel="noreferrer">
                   <Button
-                    className="gh-button"
+                    className="gh-button "
                     variant="secondary mt-auto"
                     size="sm"
                   >
