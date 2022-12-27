@@ -6,7 +6,7 @@ Welcome to my personal portfolio which includes samples of my work, resume and c
 
 ## 🔗 Links to Page</h3>
 
-Deployed:
+Deployed: https://jennybloemen.github.io/Portfolio/
 
 GitHub Repo:
 
