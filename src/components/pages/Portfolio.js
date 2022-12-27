@@ -90,6 +90,7 @@ export default function Portfolio() {
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-20-px"
+        // border="secondary"
       >
         {projects.map((data, idx) => (
           <Projects data={data} key={idx} />

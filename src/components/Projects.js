@@ -15,7 +15,10 @@ export default function Projects({ data }) {
           />
           <Card.Body className="align-items-end pb-1">
             <Card.Title>{title}</Card.Title>
-            <Card.Text style={{ height: "70px", maxHeight: "70px" }}>
+            <Card.Text
+              className="card-text"
+              style={{ height: "70px", maxHeight: "70px" }}
+            >
               {description}
             </Card.Text>
 
@@ -36,5 +39,3 @@ export default function Projects({ data }) {
     </div>
   );
 }
-
-//

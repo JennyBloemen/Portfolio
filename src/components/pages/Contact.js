@@ -70,7 +70,7 @@ class Contact extends Component {
                 name="message"
                 className="form-control"
                 id="exampleFormControlTextarea1"
-                rows="12"
+                rows="8"
               />
             </div>
 
@@ -137,7 +137,7 @@ class Contact extends Component {
                     variant="secondary mt-auto"
                     size="sm"
                   >
-                    Download My Resume
+                    Resume
                   </Button>
                 </a>
               </div>
