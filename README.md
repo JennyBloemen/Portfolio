@@ -12,7 +12,7 @@ GitHub Repo:
 
 ## ▶️ Screenshot of Application</h3>
 
-<img src="./assets/images/portfolio.png"width="640" height="360"/>
+<img src="./src/assets/images/portfolio.png"width="640" height="360"/>
 
 ## 🛠 Built With</h3>
 
