@@ -8,7 +8,7 @@ Welcome to my personal portfolio which includes samples of my work, resume and c
 
 Deployed: https://jennybloemen.github.io/Portfolio/
 
-GitHub Repo:
+GitHub Repo: https://github.com/JennyBloemen/Portfolio.git
 
 ## ▶️ Screenshot of Application</h3>
 
