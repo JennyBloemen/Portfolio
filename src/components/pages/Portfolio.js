@@ -27,7 +27,7 @@ export default function Portfolio() {
     {
       title: "GoGroom",
       description: "Animal grooming servies schedular built with: MERN stack",
-      img: require(`../../assets/images/dog.png`),
+      img: require(`../../assets/images/GoGroom.png`),
       github: "https://github.com/JennyBloemen/GoGroom",
     },
     {
