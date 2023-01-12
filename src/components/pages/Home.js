@@ -56,7 +56,11 @@ export default function Home() {
                 in customer service, planning, and implementation. I am
                 passionate about technology and continued education. I reside in
                 Syracuse, Ut and I'm a mountain girl who also loves the ocean
+<<<<<<< HEAD
                 and my family! In my sparetime I like to craft, garden, travel,
+=======
+                and my family! In my spare time I like to craft, garden, travel,
+>>>>>>> a2119886dfab63155b9972d40a971a283c6d0beb
                 and read. Just in case you are wondering, I'm a pisces.
               </p>
             </Col>
