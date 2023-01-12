@@ -31,7 +31,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           height: "100vh",
-          width: "98.9vw",
+          width: "100vw",
         }}
       >
         <Container className="about" fluid="md" mt-10>
@@ -57,7 +57,7 @@ export default function Home() {
                 passionate about technology and continued education. I reside in
                 Syracuse, Ut and I'm a mountain girl who also loves the ocean
                 and my family! In my sparetime I like to craft, garden, travel,
-                and read. Just incase you are wondering, I'm a pisces.
+                and read. Just in case you are wondering, I'm a pisces.
               </p>
             </Col>
           </Row>
