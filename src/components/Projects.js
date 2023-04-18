@@ -7,11 +7,11 @@ export default function Projects({ data }) {
   return (
     <div className="row">
       <div className="col">
-        <Card className="m-3" style={{ height: "370px" }}>
+        <Card className="m-3" style={{ height: "350px" }}>
           <Card.Img
             variant="top"
             src={img}
-            style={{ width: "100%", height: "180px" }}
+            style={{ width: "100%", height: "160px" }}
           />
           <Card.Body className="align-items-end pb-1">
             <Card.Title>{title}</Card.Title>
